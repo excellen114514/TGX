@@ -1,0 +1,37 @@
+.time-container {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 50px auto;
+}
+
+.time-display {
+    position: absolute;
+    top: 40%; /* 调整这个值来改变显示的位置 */
+    left: 250%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    z-index: 2;
+}
+
+.time-display.hidden {
+    opacity: 0;
+}
+
+/* 新增样式以显示 */
+.date-display {
+    position: absolute;
+    top: 40%; /* 调整这个值来改变显示的位置 */
+    left: 250%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    z-index: 2;
+}
+
+.date-display.visible {
+    opacity: 0;
+}
