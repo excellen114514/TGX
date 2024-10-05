@@ -3,7 +3,7 @@
 ```
 npm install express
 ```
-完事启动
+- 完事启动
 ```
 node sever.js
 ```
